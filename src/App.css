@@ -1,0 +1,177 @@
+.dark .toggleContainer {
+  background-color: #fff;
+}
+
+.light .toggleContainer.isActive {
+  background-color: #111113;
+}
+
+.dark .toggleKnob {
+  background-color: #111113;
+}
+
+.light .toggleKnob.isActive {
+  background-color: #fff;
+}
+
+.dark {
+  text-align: center;
+  background-color: #111113;
+  color: #ffffff;
+  outline: #ffffff;
+  outline: white;
+  transition: all 1s ease-in;
+}
+
+.light {
+  text-align: center;
+  background-color: rgb(235, 235, 235);
+  color: #111113;
+  transition: all 1s ease-in;
+}
+
+.dark a {
+  color: #ffffff;
+}
+
+.light a {
+  color: #111113;
+}
+
+.dark span:hover {
+  border-bottom: 1px solid #ffffff;
+}
+
+.light span:hover {
+  border-bottom: 1px solid #111113;
+}
+
+.dark .Navbar {
+  border-bottom: 1px solid #ffffff;
+}
+
+.light .Navbar {
+  border-bottom: 1px solid #111113;
+}
+
+.dark input {
+  outline: white;
+}
+
+.light input {
+  outline: black;
+}
+
+.dark .artiste-title-cursor {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.light .artiste-title-cursor {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+.dark .container-letter {
+  background-color: rgb(235, 235, 235);
+  border-bottom: 1px solid #ffffff;
+}
+
+.dark .boutton-letters {
+  background-color: rgb(235, 235, 235);
+}
+
+.dark .letters {
+  color: #111113;
+}
+
+.light .container-letter {
+  background-color: rgb(235, 235, 235);
+  border-bottom: 1px solid #111113;
+}
+.light .boutton-letters {
+  background-color: rgb(235, 235, 235);
+}
+
+.light .letters {
+  color: #111113;
+}
+
+.dark .buttonContact,
+.btn {
+  background-color: white;
+  color: black;
+}
+
+.light .buttonContact,
+.btn {
+  background-color: rgb(156, 156, 156);
+  color: white;
+}
+
+.dark svg {
+  color: white;
+}
+
+.light svg {
+  color: #111113;
+}
+
+.dark .container-reseaux {
+  color: white;
+  size: 40px;
+}
+
+.light .container-reseaux {
+  color: black;
+  size: 40px;
+}
+
+.dark path {
+  size: 40px;
+}
+
+.light path {
+  size: 40px;
+}
+
+.dark a.artists {
+  color: white;
+}
+
+.light a.artists {
+  color: white;
+}
+
+.dark .nameArtistBox {
+  color: white;
+  border-color: white;
+}
+
+.light .nameArtistBox {
+  color: white;
+  border-color: white;
+}
+
+.dark .music {
+  color: white;
+}
+
+.light .music {
+  color: black;
+}
+
+.dark .artiste-info {
+  color: white;
+}
+
+.light .artiste-info {
+  color: black;
+}
+
+.dark .react-search-box-dropdown-list-item {
+  color: black;
+}
+
+.light .react-search-box-dropdown-list-item {
+  color: black;
+}

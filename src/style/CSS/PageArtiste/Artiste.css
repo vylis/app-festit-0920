@@ -1,0 +1,134 @@
+.banner-artiste-texte {
+  display: flex;
+  justify-content: space-between;
+  min-height: 580px;
+}
+
+.artiste-info {
+  margin-top: 210px;
+  margin-left: 40px;
+  text-align: left;
+}
+
+.artiste-nom {
+  margin-bottom: 0px;
+  font-size: 7em;
+}
+.boutton-play {
+  width: 50px;
+  margin-top: 15px;
+}
+
+.music-boutton {
+  /* border: 1px solid wheat; */
+  display: flex;
+}
+
+.music {
+  padding-left: 17px;
+}
+
+.top-music {
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+.title-music {
+  /* border: 1px solid blue; */
+  margin-top: 6px;
+  font-style: italic;
+}
+
+.div-image {
+  max-height: 600px;
+}
+.image-artiste {
+  margin: 50px 70px -680px 0px;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 600px;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+.container-description-artiste {
+  border: 1px solid rgb(102, 6, 6);
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.descritpion-artiste {
+  margin: 70px auto;
+  width: 50%;
+  display: flex;
+  text-align: justify;
+  align-items: center;
+  font-size: 1.7em;
+  font-weight: bold;
+  color: black;
+}
+
+@media screen and (max-width: 1320px) {
+  .container-art {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner-artiste-texte {
+    display: flex;
+    flex-direction: column;
+  }
+  .artiste-nom {
+    font-size: 5em;
+  }
+  .artiste-info {
+    height: 500px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+    margin-left: 12px;
+  }
+  .div-image {
+    /* border: 1px red solid; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .image-artiste {
+    position: relative;
+    margin: -15px auto;
+  }
+  .container-description-artiste {
+    margin-top: 0px;
+    height: auto;
+  }
+  .descritpion-artiste {
+    padding: 30px;
+    width: 90%;
+    font-size: 1.3em;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .artiste-nom {
+    font-size: 3em;
+  }
+
+  .artiste-info {
+    height: 400px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .artiste-nom {
+    font-size: 2em;
+  }
+
+  .artiste-info {
+    height: 400px;
+    margin-bottom: 0;
+  }
+}

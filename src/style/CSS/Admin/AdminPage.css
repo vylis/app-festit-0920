@@ -1,0 +1,47 @@
+.AdminPage {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.festform {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  width: 250px;
+}
+
+.ticketform {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  width: 250px;
+}
+
+.artistform {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  width: 250px;
+}
+
+.inputeuh {
+  padding: 10px;
+  margin-bottom: 2px;
+}
+
+.selecteuh {
+  padding: 10px;
+  margin-bottom: 2px;
+}
+
+.bouttonCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.buttoneuh {
+  padding: 10px;
+  width: 120px;
+}

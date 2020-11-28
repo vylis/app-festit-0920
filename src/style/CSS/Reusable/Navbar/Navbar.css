@@ -1,0 +1,225 @@
+.placeToolbar {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.centerButtonThemeNavbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toggleContainer {
+  width: 61px;
+  height: 36px;
+  border-radius: 30px;
+  background-color: #111113;
+  outline: none;
+  border: none;
+  margin-top: 12px;
+  cursor: pointer;
+  transition: all 1s ease-in;
+}
+
+.mode {
+  display: flex;
+  width: 150px;
+  justify-content: space-around;
+}
+
+.mode p {
+  margin-top: 30px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.toggleKnob {
+  width: 34px;
+  height: 33px;
+  display: block;
+  border-radius: 50%;
+  line-height: 35px;
+  background-color: white;
+  transition: all 0.5s ease-in;
+  margin-left: -5px;
+}
+
+.toggleKnob.isActive {
+  width: 32px;
+  height: 32px;
+  transform: translateX(24px);
+  border-radius: 50%;
+  line-height: 35px;
+  display: block;
+}
+
+.span {
+  margin-left: 16px;
+}
+
+.menu-bars {
+  display: none;
+}
+
+.menu-close {
+  display: none;
+}
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: -16px;
+  height: 72px;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.nav-menu-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 5px;
+}
+.nav-text {
+  margin-top: 30px;
+}
+.nav-text a {
+  text-decoration: none;
+}
+span {
+  margin-left: 16px;
+}
+
+svg {
+  margin: -1.5px;
+}
+
+#navbarlink {
+  margin-top: 30px;
+}
+
+#navbarlink a {
+  text-decoration: none;
+}
+
+span:hover {
+  text-decoration: none;
+  padding-bottom: 2px;
+}
+
+@media screen and (max-width: 950px) {
+  .navbar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .themeP {
+    display: none;
+  }
+
+  .mode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+  }
+
+  .centerButtonThemeNavbar {
+    padding: 8px;
+  }
+
+  .menu-bars {
+    padding-top: 20px;
+    font-size: 2rem;
+    background: none;
+    display: inline;
+    margin-left: 5px;
+  }
+  .menu-close {
+    font-size: 2rem;
+    display: inline;
+    margin-left: 8px;
+  }
+  .nav-menu {
+    background-color: none;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 1000;
+    top: -100%;
+    transition: 850ms;
+    margin-top: 5px;
+  }
+  .nav-menu.active {
+    background-color: black;
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    top: -5px;
+    transition: 850ms;
+  }
+
+  .nav-menu.active a {
+    color: white;
+  }
+
+  .nav-menu.active svg {
+    color: white;
+  }
+
+  .nav-menu-items {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: normal;
+  }
+  .nav-text {
+    display: flex;
+    align-items: center;
+    margin: 64px auto;
+    font-size: 20px;
+  }
+  .nav-text a {
+    text-decoration: none;
+    margin-right: 35px;
+  }
+
+  .navbar-toogle {
+    height: 0%;
+    place-self: flex-start;
+  }
+
+  span {
+    margin-left: 16px;
+    width: auto;
+  }
+
+  #navbarlink {
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 50px 0px 50px 65px;
+  }
+  .menu-close {
+    width: 100%;
+  }
+  .menu-close svg {
+    display: flex;
+    margin-top: -20px;
+  }
+  .nav-text svg {
+    width: auto;
+  }
+}

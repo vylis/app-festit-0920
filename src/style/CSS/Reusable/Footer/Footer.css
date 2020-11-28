@@ -1,0 +1,89 @@
+.footer {
+  width: 100%;
+  text-align: center;
+
+  padding: 15px 60px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-contact,
+.container-formalites {
+  text-align: left;
+}
+.question {
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 1.2em;
+}
+.adresse {
+  margin-bottom: 0px;
+}
+.ville {
+  margin-top: 4px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  /* width: 360px; */
+  margin: 40px auto;
+}
+.container-formalites {
+  /* border: 1px solid white; */
+  padding-top: 16px;
+}
+@media screen and (max-width: 980px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+
+  .container-contact {
+    margin: 30px auto;
+  }
+  .container-formalites {
+    margin: 30px auto;
+  }
+
+  .container-reseaux {
+    margin: 30px auto;
+    width: 80%;
+  }
+  .buttons {
+    width: 100%;
+  }
+}
+
+/* .tt {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+} */
+
+/* .info {
+  padding: 0;
+}
+
+#button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (min-width: 480px) {
+  footer .map {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+  }
+}
+@media screen and (min-width: 950px) {
+  .footer {
+    margin-top: 100px;
+  }
+} */

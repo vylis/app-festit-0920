@@ -1,0 +1,65 @@
+.pageStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 18px 0px;
+}
+
+.pageStyle_box {
+  width: 100%;
+}
+
+.titleBox {
+  display: flex;
+  justify-content: center;
+  margin: 18px 0px;
+}
+
+.titleStyleBox {
+  padding: 22px;
+}
+
+.styleName {
+  width: auto;
+  background-color: rgba(56, 56, 56, 0.25);
+  color: white;
+}
+
+.pName {
+  justify-content: center;
+}
+.pageStyle_box {
+  min-height: 160px;
+}
+
+.insideStyleBox {
+  min-height: 130px;
+  max-height: 130px;
+}
+
+@media screen and (min-width: 950px) {
+  .pageStyle {
+    flex-direction: row;
+    margin: 62px 0px;
+  }
+
+  .insideStyleBox {
+    min-height: 600px;
+  }
+
+  .insideStyleBox:hover {
+    transform: scale(1.1);
+    border-radius: 14px;
+  }
+
+  .titleStyleBox {
+    font-size: 30px;
+    padding-top: 225px;
+  }
+
+  .styleName {
+    width: auto;
+  }
+}

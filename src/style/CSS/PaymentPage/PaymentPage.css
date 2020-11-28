@@ -1,0 +1,119 @@
+.PayementTitle {
+  text-align: center;
+  font-size: 4em;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 35%;
+  height: 900px;
+}
+.person h3 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.PayementInput {
+  height: 30px;
+  border-radius: 30px;
+  padding-left: 10px;
+  border: none;
+}
+.nasratselect {
+  height: 30px;
+  border-radius: 15px;
+  padding-left: 15px;
+  border: none;
+}
+.input-ticket {
+  border-radius: 5px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardN {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+#tickets {
+  width: 250px;
+}
+
+#cardNumber {
+  margin-top: 15px;
+  width: 180px;
+  height: 30px;
+}
+
+.date {
+  margin-left: 70px;
+  margin-top: 15px;
+  width: 120px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.month {
+  padding-right: 5px;
+}
+
+.year {
+  padding-left: 5px;
+}
+
+.ccv {
+  margin-top: 5px;
+
+  display: flex;
+  justify-content: center;
+}
+
+#ccv {
+  margin-top: 5px;
+  width: 50px;
+  height: 30px;
+}
+
+.icon-container {
+  padding: 7px 0;
+  font-size: 24px;
+
+  padding: 7px 0;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  margin: auto;
+  border-radius: 30px;
+  border: none;
+  width: 20%;
+  cursor: pointer;
+  font-size: 17px;
+  margin-top: 20px;
+  height: 30px;
+}
+@media screen and (max-width: 950px){
+  .person{
+    width: 70%;
+  }
+  .PayementTitle{
+    font-size: 3em;
+  }
+}

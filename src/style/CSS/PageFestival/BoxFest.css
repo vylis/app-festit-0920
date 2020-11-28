@@ -1,0 +1,331 @@
+.footerColorChange {
+  color: white;
+}
+
+.moreinfo {
+  height: fit-content;
+}
+
+.festival .mode {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .descriptionText {
+    max-width: 1500px;
+    color: white;
+    margin: 30px auto;
+    line-height: 1.6;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .text-icone {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  svg {
+    color: white;
+    width: 60px;
+  }
+  .container-descriptionDesktop {
+    display: none;
+  }
+  .cardsPack {
+    flex-direction: column;
+    align-items: center;
+    margin: 8px;
+  }
+
+  .packCadre {
+    margin-top: 20px;
+  }
+
+  .packCadre {
+    margin: 20px;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    max-width: 550px;
+  }
+  /* titre sur banner */
+  .styleNameFest {
+    background: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.6em;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .section950px {
+    display: none;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .packCadre:hover {
+    height: fit-content;
+    height: 451px;
+  }
+
+  .descriptionText {
+    max-width: 1600px;
+    color: white;
+    margin: 30px;
+    line-height: 1.8;
+    font-size: 1.3em;
+    padding: 5px;
+    background-color: #fefefe0f;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .packCadre {
+    margin: 20px;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    max-width: 550px;
+    height: 451px;
+  }
+  .text-icone {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .container-descriptionMobli {
+    display: none;
+  }
+  .section951px {
+    display: none;
+  }
+
+  .packCadre:hover img {
+    transform: scale(1);
+    opacity: 0.8;
+    border-radius: 8px;
+    height: 300px;
+  }
+
+  .packCadre:hover .imagepackcard {
+    height: 242px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+
+  .packCadre {
+    width: 40%;
+  }
+
+  /* titre sur banner */
+  .styleNameFest {
+    background: none;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 120px;
+    text-shadow: black 2px 5px 50px;
+  }
+}
+
+/* background page */
+
+.festival {
+  background-color: #0e1f31;
+  color: #0e1f31;
+}
+
+/* Banner */
+
+.boxFestival {
+  width: auto;
+  margin-bottom: 0px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  opacity: 0.8;
+}
+
+/* effet ombre sur banner*/
+
+/* .boxFestival :after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 500px;
+  opacity: 0.85;
+  background: linear-gradient(transparent,  90%);
+  z-index: -1;
+} */
+
+/* les cards tickets */
+.cardsPack {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.bouttonResa {
+  background: none;
+  border-radius: 2px;
+  text-transform: uppercase;
+  color: black;
+  position: relative;
+  font-weight: bold;
+}
+
+/* une card ticket */
+
+.packCadre img {
+  height: auto;
+  width: 100%;
+  border-radius: 8px;
+  z-index: -1;
+  display: block;
+  transition: all 0.8s cubic-bezier(0.17, 0.72, 0.42, 1.1);
+}
+
+.imagepackcard {
+  width: auto;
+  margin: auto;
+  margin-bottom: 0px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  opacity: 0.8;
+  overflow: hidden;
+}
+
+.packCadre h2 {
+  text-align: center;
+  font-size: 1.1em;
+  font-family: 'poppins';
+  margin: none;
+  text-transform: uppercase;
+}
+.textPack {
+  position: relative;
+  margin: 8px;
+  text-align-last: start;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-height: 100px;
+}
+
+.textPack p {
+  display: flex;
+  margin-block-end: initial;
+  padding: 0px;
+  color: rgb(48, 48, 48);
+  font-family: 'poppins';
+  line-height: 1.3;
+  margin-block-end: revert;
+}
+
+.bouttonResa p {
+  color: black;
+  border: solid black 2px;
+  width: 20%;
+  font-size: 20px;
+  text-decoration: none;
+  text-decoration: none;
+}
+
+/* fin de card individuelle */
+/* fin des cards tickets */
+
+/*----- partie description -------*/
+/* LineUP */
+.container-artists {
+  font-family: Raleway;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 2em;
+  line-height: 2em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/*Fin LineUp */
+
+/* container description */
+
+.container-description {
+  border-bottom: solid 1px white;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+.descriptionFestival {
+  /* border: 1px solid white; */
+  margin: 15px auto;
+  color: white;
+  z-index: 1;
+  position: relative;
+  /* border: 1px solid white; */
+  margin: 15px auto;
+  color: white;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
+  align-items: center;
+}
+
+.details {
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  font-size: 1.3em;
+  margin: 0px;
+}
+
+.description {
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 1.2em;
+}
+
+.fleche {
+  font-size: 1.2em;
+}
+
+/* -----------partie icones --------------*/
+.container-icones {
+  /* border: 1px solid red; */
+  display: flex;
+  width: 90%;
+  margin: 50px auto;
+  justify-content: space-around;
+}
+
+.icone-texte {
+  text-align: center;
+  width: 40%;
+  margin: 10px;
+}
+
+.image-icone {
+  width: 50px;
+}
+
+/* -----  Partie Line Up ------ */
+.lineUp {
+  background-color: #0e1f31;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ----- fin partie Line up ----- */

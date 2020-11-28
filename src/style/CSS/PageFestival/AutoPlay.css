@@ -1,0 +1,19 @@
+.container-artists {
+  color: black;
+  margin: 100px 0px;
+  height: 68px;
+  /* padding: 5px 0px; */
+  background-color: white;
+}
+
+.artist-name {
+  font-size: 2.2em;
+  width: 160px;
+  flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 400px) {
+  .container-artists {
+    font-size: 1.7em;
+  }
+}
