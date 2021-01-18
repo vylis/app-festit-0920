@@ -1,4 +1,4 @@
-wild code school - project two
+wild code school - second project
 
 website link
 
