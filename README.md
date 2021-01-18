@@ -2,7 +2,7 @@ wild code school - project two
 
 website link
 
-https://festochfastoch.herokuapp.com/.
+https://festochfastoch.herokuapp.com/
 
 ## Getting started
 
