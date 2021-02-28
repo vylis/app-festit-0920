@@ -1,4 +1,4 @@
-wild code school - second project
+wcs - second project
 
 website link
 
